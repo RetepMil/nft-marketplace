@@ -89,7 +89,7 @@ contract NFTMarket is ReentrancyGuard {
         IERC721(nftContract).transferFrom(address(this), msg.sender, tokenId);
         idToMarketItem[itemId].owner = payable(msg.sender);
         idToMarketItem[itemId].sold = true;
-        _itemIds.increment();
+        _itemsSold.increment();
         payable(owner).transfer(listingPrice);
     }
 
