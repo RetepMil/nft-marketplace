@@ -1,15 +1,4 @@
-# Basic Sample Hardhat Project
+# NFT Marketplace
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+following the lecture on youtube by Nadar Dabit
+url: https://www.youtube.com/watch?v=GKJBEEXUha0&list=WL&index=10&t=1841s;
